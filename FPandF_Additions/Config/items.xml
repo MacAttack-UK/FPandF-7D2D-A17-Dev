@@ -1,0 +1,11 @@
+<!-- [FPandF Gaming] Additions [A17 Modlet] -->
+<configs>
+	<!-- Increase various item stacks -->
+	<set xpath="/items/item/property[@name='Stacknumber'][@value='6000']/@value">10000</set>
+	<set xpath="/items/item/property[@name='Stacknumber'][@value='1000']/@value">10000</set>
+	<set xpath="/items/item/property[@name='Stacknumber'][@value='250']/@value">1000</set>
+	<set xpath="/items/item/property[@name='Stacknumber'][@value='15']/@value">50</set>
+	<set xpath="/items/item/property[@name='Stacknumber'][@value='10']/@value">50</set>
+	<set xpath="/items/item/property[@name='Stacknumber'][@value='5']/@value">20</set>
+	<set xpath="/items/item[@name='resourceIronFragment']/property[@name='Stacknumber']/@value">10000</set>
+</configs>

@@ -1,0 +1,20 @@
+<!-- [FPandF Gaming] Additions [A17 Modlet] -->
+<configs>
+	<append xpath="/blocks"> <!-- SuperCampfire (Creative Only) -->
+		<block name="superCampfire">
+			<property name="Extends" value="campfire" />
+			<property name="HeatMapStrength" value="90" />
+			<property name="HeatMapTime" value="1400" />
+			<property name="HeatMapFrequency" value="5" />
+			<property name="BuffsWhenWalkedOn" value=""/>
+			<property name="ActiveRadiusEffects" value="buffCampfireAOE(3)" />
+			<property class="Workstation">
+				<property name="Modules" value="fuel"/>
+			</property>
+			<property name="DescriptionKey" value="superCampfireDesc" />
+			<drop event="Destroy" count="0" />
+			<drop event="Destroy" name="campfire" count="0" />
+			<drop event="Destroy" name="superCampfire" count="1" />
+		</block>
+	</append>
+</configs>

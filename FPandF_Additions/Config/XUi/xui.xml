@@ -1,0 +1,11 @@
+<!-- [FPandF Gaming] Additions [A17 Modlet] -->
+<configs>
+	<append xpath="/xui/ruleset"> <!-- SuperCampfire XUi -->
+		<window_group name="workstation_superCampfire" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowFuel" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+	</append>
+</configs>

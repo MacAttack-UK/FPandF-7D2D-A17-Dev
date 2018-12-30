@@ -1,0 +1,6 @@
+<!-- [FPandF Gaming] Additions [A17 Modlet] -->
+<configs>
+	<!-- Half required XP per level and Increase skill points per level to 3 -->
+	<set xpath="/progression/level/@exp_to_level">4772</set>
+	<set xpath="/progression/level/@skill_points_per_level">3</set>
+</configs>

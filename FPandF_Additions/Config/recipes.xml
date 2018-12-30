@@ -1,0 +1,12 @@
+<!-- [FPandF Gaming] Additions [A17 Modlet] -->
+<configs>
+	<append xpath="/recipes"> <!-- Acid recipe -->
+		<recipe name="resourceAcid" count="1" craft_area="chemistryStation">
+			<ingredient name="foodCropGraceCorn" count="4" />
+			<ingredient name="drinkJarYuccaJuice" count="1" />
+			<ingredient name="drugHerbalAntibiotics" count="1" />
+			<ingredient name="drinkJarGrainAlcohol" count="2" />
+			<ingredient name="ammoGasCan" count="2" />
+		</recipe>
+	</append>
+</configs>
